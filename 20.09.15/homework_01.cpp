@@ -1,6 +1,5 @@
 #include <iostream>
 
-//Å¬·¡½º´Â Ä¸½¶È­ 
 class SetValue {
 	int x, y;
 public :
@@ -31,6 +30,7 @@ int main() {
 	obj.setX(33);
 	obj.setY(44);
 
-	std::cout << "X = " << obj.getX() << " ,Y = " << obj.getY() << std::endl;
+	std::cout << "X = " << obj.getX() << " ,Y = " << obj.getY() 
+	<< std::endl;
 	return 0;
 }
