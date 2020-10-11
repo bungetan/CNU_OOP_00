@@ -33,6 +33,7 @@ My_cat::~My_cat() {		//Destructor
 
 My_cat& My_cat::eat(int e) {
 	this->weight += e;
+	return *this;
 }
 
 void My_cat::show_status() const {
