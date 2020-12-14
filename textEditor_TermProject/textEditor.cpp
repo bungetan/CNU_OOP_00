@@ -7,7 +7,6 @@
 
 using namespace std;
 
-vector<string> context;
 char cmd[100];
 
 class Singleton {
@@ -267,6 +266,7 @@ void inputCommand() {
 
 int main() {
     ifstream examFile("CNU_OOP_00/textEditor_TermProject/test.txt");
+    vector<string> context;
     if (examFile.is_open()) {
         string s;
         while (examFile >> s) {
